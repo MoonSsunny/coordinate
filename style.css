@@ -1,20 +1,37 @@
 body {
-    position: relative;
     background-color: black;
     margin: 0;
     padding: 0;
+    cursor: none;
+}
+.line {
+    position: absolute;
+    background-color: white;
+}
+
+.horizontal {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+}
+
+.vertical {
+    height: 100%;
+    width: 1px;
+    left: 50%;
 }
 
 .target_img {
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .target_img img {
     width: 70px;
 }
 
-.target_img #log {
-    width: 100px;
+#log {
+    width: 300px;
     position: absolute;
     top: 40px;
     left: 50px;
