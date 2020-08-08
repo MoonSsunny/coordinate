@@ -1,0 +1,22 @@
+body {
+    position: relative;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.target_img {
+    position: absolute;
+}
+
+.target_img img {
+    width: 70px;
+}
+
+.target_img #log {
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: white;
+}
